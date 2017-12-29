@@ -1,20 +1,14 @@
 /**
- *  Copyright 2015 SmartThings
  *
- *  Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
- *  in compliance with the License. You may obtain a copy of the License at:
+ *  Ring Spotlight Cam Light Control
+ * 
+ *  Needs the username/password and the device ID of the device. 
+ *  This needs to be sourced by an API call to
+ *  https://api.ring.com/clients_api/ring_devices?api_version=9&auth_token={{auth_token}}
+ *  
+ *  I used https://github.com/davglass/doorbot as a guide to build the requests.
+ *  Author: Philip
  *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- *  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed
- *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
- *  for the specific language governing permissions and limitations under the License.
- *
- *  On/Off Button Tile
- *
- *  Author: SmartThings
- *
- *  Date: 2013-05-01
  */
 metadata {
 	definition (name: "Ring Spotlight", namespace: "philgituser", author: "Philip") {
